@@ -14,7 +14,8 @@
   }
 
 .loading-oheeh > img {
-    width: 100%;
+    width: 600px;
+    height: auto;
 }
 .one-slide {
     height: 100vh;
@@ -109,4 +110,21 @@
 .sosmed > ul > li > a{
     text-decoration: none;
     color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+
+    .one-slide{
+        height: auto;
+    }
+    
+    .up > .logo > img {
+        width: 12vw;
+        height: auto;
+    }
+
+    .loading-oheeh > img {
+        width: 1000px;
+        height: auto;
+    }
 }
